@@ -3,17 +3,17 @@ example for decorators.
 """
 
 
-def decor(func):
-    def wrapper():
+def decor_alksdfalskdjfhaljkhf(func):
+    def wrapper_uyeryryryryryry():
         print '::before'
         result = func()
         print '::after'
         return result
 
-    return wrapper
+    return wrapper_uyeryryryryryry
 
 
-@decor
+@decor_alksdfalskdjfhaljkhf
 def base_func():
     print '-base func running-'
 
