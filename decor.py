@@ -13,6 +13,9 @@ def base_func():
 
 
 
+# you put your original function call in another
+# function, so you can leave the original func
+# and calling it untouched.
 base_func = extra(base_func)
 
 
